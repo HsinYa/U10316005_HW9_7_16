@@ -6,7 +6,9 @@ public class SortTwoDimensionalArray {
 		int[][] array = {{4,2},{1,7},{4,5},{1,2},{1,1},{4,1}};
 		//Invoke a method
 		sort(array);
-	
+		for (int i = 0; i < array.length; i++) {
+		      System.out.println(array[i][0] + ", " + array[i][1]);
+		 }
 	}
 
 	public static void sort(int m[][]){
